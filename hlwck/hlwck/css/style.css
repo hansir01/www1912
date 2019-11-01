@@ -1,0 +1,41 @@
+@charset "gbk";
+*{margin: 0;padding: 0;font-family: 'Î¢ÈíÑÅºÚ','ËÎÌå';}
+body {background: #FFF;color:#000;margin: 0;padding: 0;min-width: 1200px;font-size: 18px;}
+a {text-decoration:none;color: #FFF;}
+li {list-style: none;margin: 0;padding: 0;}
+ul {margin: 0;padding: 0;}
+img {margin: 0;padding: 0;border: 0px;outline-width:0px;  vertical-align:top; }
+input{margin: 0;padding: 0;border: 0px;}
+.clear {clear:both;}
+.fl {float:left;}
+hr {border: 1px solid #00a2ff;}
+
+.public {margin: auto;width: 1200px;}
+.butt {text-align: center;margin-top: 30px;}
+.butt a {display: inline-block;width: 240px;line-height: 42px;text-align: center;font-size: 18px;white-space: nowrap;word-spacing: normal;letter-spacing: normal;overflow: hidden;text-overflow:ellipsis;border-radius: 20px;font-weight: bold;}
+.bt1 a {background-color: #00a8ff;color: #FFF;}
+.bt2 a {background-color: #ff2222;color: #FFF;}
+.bt3 a {background-color: #f24b52;color: #FFF;}
+.bt4 a {background-color: #FFF;color: #ff7200;}
+.bt5 a {background-color: #4e16d3;color: #FFF;}
+.bt6 a {background-color: #ff0000;color: #FFF;}
+.img_01 {margin-top: 20px;}
+.tit_01 {text-align: center;padding:10px 0;color:#00a8ff;font-size: 39px;letter-spacing: 3px;}
+.p_01 {text-align: center;}
+.img_02 {text-align: center;margin-top: 10px;}
+.tit_02 {text-align: center;padding: 20px 0;}
+.ckUl1 {margin-left: 110px;}
+.ckUl1 ul li {float: left;margin-left: 50px;margin-top: 20px;}
+.tit_03 {text-align: center;color: #FFF;padding-top: 56px;font-size: 39px;}
+.bg_01 {background-image: url(../images/bg_01.jpg);background-position: top center;background-repeat: no-repeat;}
+.img_03 {margin-top: 50px;}
+.bg_02 {background-image: url(../images/bg_02.jpg);background-position: center;background-repeat: no-repeat;height: 1094px;}
+.bg_03 {background-image: url(../images/bg_03.jpg);background-position: center;background-repeat: no-repeat;height: 757px;}
+.tit_04 {text-align: center;padding-top: 30px;}
+.p_02 {color: #FFF;text-align: center;padding-top: 20px;}
+.img_04 img {margin-top: 20px;}
+.ckUl2 {padding-top: 150px;}
+.ckUl2 ul li {float: left;width: 146px;background-color: #000;color: #FFF;margin-left: 20px;}
+.ckUl2 ul li p {font-size: 15px;padding: 5px;line-height: 24px;height: 170px;}
+.tit_05 {text-align: center;color: #fe0000;padding: 25px 0;}
+.ckUl3 ul li {float: left;margin-left: 23px;}
