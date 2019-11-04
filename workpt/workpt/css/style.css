@@ -1,0 +1,53 @@
+@charset "gbk";
+*{margin: 0;padding: 0;font-family: 'Î¢ÈíÑÅºÚ','ËÎÌå';}
+body {background: #FFF;color:#000;margin: 0;padding: 0;min-width: 1200px;font-size: 18px;}
+a {text-decoration:none;color: #FFF;}
+li {list-style: none;margin: 0;padding: 0;}
+ul {margin: 0;padding: 0;}
+img {margin: 0;padding: 0;border: 0px;outline-width:0px;  vertical-align:top; }
+input{margin: 0;padding: 0;border: 0px;}
+.clear {clear:both;}
+.fl {float:left;}
+hr {border: 1px solid #00a2ff;}
+
+.public {margin: auto;width: 1200px;}
+.butt {text-align: center;margin-top: 30px;}
+.butt a {display: inline-block;width: 240px;line-height: 42px;text-align: center;font-size: 18px;white-space: nowrap;word-spacing: normal;letter-spacing: normal;overflow: hidden;text-overflow:ellipsis;border-radius: 10px;}
+.bt1 a {background-color: #ff3800;color: #FFF;}
+.bt2 a {background-color: #0066cb;color: #FFF;width: 300px;}
+.bt3 a {background-color: #d59c00;color: #FFF;}
+.bt4 a {background-color: #ff0000;color: #FFF;}
+.tit_01 {text-align: center;padding-top:20px;}
+.wkUl1 {margin-left: 72px;margin-top: 20px;}
+.wkUl1 ul li {float: left;margin-left: 50px;}
+.wkUl1 ul li p {text-align: center;line-height: 50px;}
+.tit_02 {text-align: center;padding-top: 20px;letter-spacing: 3px;}
+.tit_02 font {color: #ff0000;}
+.wkUl2 ul li {float: left;margin-left: 25px;text-align: center;}
+.wkUl2 ul li img {margin-top: 50px;}
+.p_01 {line-height: 35px;}
+.p_02 {color: #0066cb;font-weight: bold;}
+.p_03 {text-align: center;margin-top: 20px;line-height: 30px;}
+.wkUl3 {margin-top: 20px;}
+.wkUl3 ul li {float: left;margin-left: 35px;}
+.bg {background-color: #ffe5b8;padding-bottom: 20px;margin-top: 20px;}
+.tit_03 {text-align: center;color: #ff0000;font-size: 45px;padding-top: 30px;}
+.p_04 {text-align: center;line-height: 39px;font-size: 20px;}
+.wkUl4 {margin-left: 75px;}
+.wkUl4 ul li {float: left;background-color: #FFF;width: 455px;padding-bottom: 10px;margin-left: 50px;margin-top: 20px;}
+.p_05 {text-align: center;color: #ff0000;font-size: 20px;padding: 10px 0;}
+.p_06 {font-size: 15px;padding: 0 10px;letter-spacing: 1px;line-height: 23px;}
+.tit_04 {color: #900000;text-align: center;padding-top:20px;font-size: 39px;}
+.zy ul li {float: left;margin-left: 8px;text-align: center;background-color: #eaeaea;padding-bottom: 20px;}
+.zy ul {margin-top: 20px;}
+.zy ul li h2 {font-size: 20px;line-height: 50px;}
+.zy ul li p {line-height: 32px;}
+.zy ul li span {background-color: #e77a19;color: #FFF;padding: 5px 20px;margin-left: 10px;}
+.bgm {background-image: url(../images/bg.jpg);background-position: center;height: 508px;margin-top: 30px;}
+.bgc {background-color: #55b9ff;width: 344px;height: 367px;border-radius: 10px;}
+.pft {padding-top:72px;padding-left: 660px;}
+.ipt h2 {text-align: center;color: #FFF;padding-top: 10px;font-size: 32px;border-bottom: 1px solid #FFF;width: 280px;margin-left: 32px;line-height: 75px;}
+.ipt p {background-color: #FFF;width: 300px;margin-left: 22px;border-radius: 10px;line-height: 45px;margin-top: 15px;}
+.ipt p img {padding-top: 10px;}
+.ipt span {display: inline-block;width: 60px;text-align: center;}
+.sbt input {text-align: center;width: 300px;margin-left: 22px;background-color: #fff000;line-height: 45px;margin-top: 15px;font-size: 20px;border-radius: 10px;}
