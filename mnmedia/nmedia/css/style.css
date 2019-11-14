@@ -1,0 +1,42 @@
+@charset "gbk";
+*{margin: 0;padding: 0;font-family: 'Î¢ÈíÑÅºÚ','ËÎÌå';}
+body {background: #FFF;color:#000;margin: 0 auto;padding: 0;min-width: 320px;max-width:640px;font-size: 0.16rem;}
+a {text-decoration:none;color: #000;}
+li {list-style: none;}
+ul {margin: 0;padding: 0;}
+img {margin: 0;padding: 0;border: 0px;outline-width:0px;  vertical-align:top;}
+input{margin: 0;padding: 0;border: 0px;}
+.clear{clear:both;}
+.fl {float: left;}
+hr {width: 1rem;margin-left: 2.7rem;border: 1px solid #0072ff;}
+
+.banner img{width:6.4rem;display: block;}
+.butt {text-align: center;margin-top: 0.2rem;}
+.butt a {display: inline-block;width: 2.3rem;line-height: 0.39rem;text-align: center;font-size: 0.18rem;white-space: nowrap;word-spacing: normal;letter-spacing: normal;overflow: hidden;text-overflow:ellipsis;border-radius: 0.1rem;}
+.bt1 a {background-color: #FFF;color: #7b23f1;}
+.bt2 a {background-color: #ff6c00;color: #FFF;}
+
+.tit_01 {color: #5969d2;text-align: center;padding: 0.1rem 0;}
+.p_01 {width: 6rem;margin-left: 0.2rem;text-indent: 2em;line-height: 0.3rem;}
+.img_01 {text-align: center;}
+.img_01 img {width: 4.22rem;}
+.but {text-align: center;margin-top: 0.2rem;}
+.but a {background-image: url(../images/butt.jpg);width: 3.18rem;height: 0.65rem;display: inline-block;line-height: 0.65rem;font-size: 0.25rem;color: #FFF;background-size: 100%;}
+.bg {background-image: url(../images/bg.jpg);width: 6.4rem;height: 5.61rem;background-size: 100%;margin-top: 0.1rem;}
+.tit_02 {text-align: center;color: #FFF;padding-top: 0.3rem;font-size: 0.39rem;}
+.nmUl1 ul li {float: left;margin-top: 0.3rem;margin-left: 0.1rem;width: 2rem;}
+.nmUl1 ul li img {width: 2rem;}
+.tit_03 {text-align: center;margin-top: 0.2rem;color: #0091ea;}
+.nmUl2 {margin-top: 0.2rem;}
+.nmUl2 ul li {width: 1.31rem;float: left;text-align: center;margin-left: 0.232rem;}
+.nmUl2 ul li img {width: 1.31rem;}
+.nmUl2 ul li p {line-height: 0.5rem;}
+.ck {margin-top: 0.2rem;}
+.bgc {background-image: url(../images/nm_04_01.jpg);height: 5.86rem;width: 6.4rem;background-size: 100%;margin-top: 0.2rem;}
+.tit_04 {width: 5rem;text-align: center;color: #0091ea;padding-top: 0.3rem;}
+.tit_05 {text-align: center;color: #ff752a;margin-top: 0.2rem;}
+.nmUl3 ul li {float: left;width: 3rem;margin-left: 0.133rem;margin-top: 0.2rem;}
+.nmUl3 ul li img {width: 3rem;}
+.tit_06 {text-align: center;color: #ff4079;font-size: 0.39rem;border: 1px solid#ff4079;width: 5.8rem;margin-left: 0.2rem;padding: 0.1rem;border-radius: 0.5rem;margin-top: 0.2rem;}
+.img_02 {width: 6.2rem;margin-left: 0.1rem;margin-top: 0.2rem;}
+.img_02 img {width: 6.2rem;}
