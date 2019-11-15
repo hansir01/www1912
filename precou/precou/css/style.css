@@ -1,0 +1,44 @@
+@charset "gbk";
+*{margin: 0;padding: 0;font-family: 'Î¢ÈíÑÅºÚ','ËÎÌå';}
+body {background: #FFF;color:#000;margin: 0;padding: 0;min-width: 1200px;font-size: 18px;}
+a {text-decoration:none;color: #FFF;}
+li {list-style: none;margin: 0;padding: 0;}
+ul {margin: 0;padding: 0;}
+img {margin: 0;padding: 0;border: 0px;outline-width:0px;  vertical-align:top; }
+input{margin: 0;padding: 0;border: 0px;}
+.clear {clear:both;}
+.fl {float:left;}
+hr {border: 1px solid #00a2ff;}
+
+.public {margin: auto;width: 1200px;}
+.butt {text-align: center;margin-top: 30px;}
+.butt a {display: inline-block;width: 250px;line-height: 45px;text-align: center;font-size: 21px;white-space: nowrap;word-spacing: normal;letter-spacing: normal;overflow: hidden;text-overflow:ellipsis;border-radius: 10px;}
+.bt1 a {background-color: #0066cb;color: #FFF;}
+.bt2 a {background-color: #ff6c00;color: #FFF;}
+.tit_01 {text-align: center;font-size: 39px;padding:20px 0;color: #019fe8;margin-top: 20px;}
+.tit_01 span {color: #FFF;background-color: #019fe8;padding: 10px 50px;}
+.p_01 {text-align: center;line-height: 36px;margin-top: 10px;}
+.bg1 {background-color: #ebebeb;padding: 10px 0;margin-top: 20px;}
+.wd3 ul li {float: left;margin-left: 10px;margin-top:10px;}
+.wd1 {width: 210px;}
+.wd2 {width: 660px;}
+.p_02 {font-size: 25px;text-align: center;line-height: 50px;margin-top: 10px;}
+.p_02 font {color: #ff0000;}
+.inp {margin-left: 20px;}
+.inp input[type="text"] {width: 230px;padding-left: 10px;border: 1px solid #c6c6c6;line-height: 32px;border-radius: 6px;}
+.inp input[type="submit"] {width: 130px;line-height: 34px;background-color: #00a8ff;color: #FFF;border-radius: 6px;}
+.tit_02 {text-align: center;margin: 20px 0;}
+.pcUl1 ul li {float: left;margin-left: 25px;}
+.pcUl1 ul li p {text-align: center;margin: 10px 0;}
+.pcUl1 ul li p a {display: inline-block;width: 180px;line-height: 35px;font-size: 16px;text-align: center;white-space: nowrap;word-spacing: normal;letter-spacing: normal;overflow: hidden;text-overflow:ellipsis;border-radius: 10px;background-color: #0096ff;color: #fff600;}
+.bg2 {background-color: #0066cb;text-align: center;padding: 50px;}
+.bg2 img {margin-top: 10px;margin-bottom: 10px;}
+.tit_03 {text-align: center;letter-spacing: 2px;margin-top: 30px;}
+.pcUl2 {margin-left: 30px;}
+.pcUl2 ul li {float: left;margin-left: 25px;margin-top: 30px;}
+.pcUl3 {margin-top: 20px;}
+.pcUl3 ul li {float: left;margin-left: 25px;}
+.pcUl3 ul li p {text-align: center;line-height: 50px;}
+
+.pcUl4 ul li {float: left;margin-left: 10px;}
+.bg3 {background-color: #feffcb;padding: 20px 0;margin-top: 20px;}
