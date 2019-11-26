@@ -1,0 +1,31 @@
+@charset "gbk";
+*{margin: 0;padding: 0;font-family: 'Î¢ÈíÑÅºÚ','ËÎÌå';}
+body {background: #FFF;color:#000;margin: 0 auto;padding: 0;min-width: 320px;max-width:640px;font-size: 0.16rem;}
+a {text-decoration:none;color: #000;}
+li {list-style: none;}
+ul {margin: 0;padding: 0;}
+img {margin: 0;padding: 0;border: 0px;outline-width:0px;  vertical-align:top;}
+input{margin: 0;padding: 0;border: 0px;}
+.clear{clear:both;}
+.fl {float: left;}
+
+.banner img{width:6.4rem;display: block;}
+.butt {text-align: center;margin-top: 0.2rem;}
+.butt a {display: inline-block;width: 2rem;line-height: 0.39rem;text-align: center;font-size: 0.18rem;white-space: nowrap;word-spacing: normal;letter-spacing: normal;overflow: hidden;text-overflow:ellipsis;border-radius: 0.1rem;}
+.bt1 a {background-color: #ff0000;color: #FFF;}
+
+.tit_01 {text-align: center;padding: 0.1rem 0;}
+.p_01 {width: 6rem;margin-left: 0.2rem;line-height: 0.25rem;}
+.img_01 {margin-top: 0.18rem;margin-left: 0.15rem;}
+.erUl1 ul li {margin-top: 0.18rem;margin-left: 0.15rem;}
+.erUl2 ul li {float: left;width: 3rem;text-align: center;line-height: 0.32rem;margin-left: 0.133rem;margin-top: 0.1rem;}
+.erUl2 ul li a {color: #FFF;}
+.cl1 {background-color: #4445f7;}
+.cl2 {background-color: #ee5454;}
+.cl3 {background-color: #ff6d00;}
+.cl4 {background-color: #4e71e5;}
+.erUl3 ul li {float: left;text-align: center;margin-left: 0.2rem;}
+.erUl3 ul li h2 {font-size: 0.2rem;line-height: 0.35rem;}
+.erUl3 ul li p {margin-top: 0.1rem;padding-bottom: 0.2rem;}
+.erUl3 ul li span {background-color: #f69c07;color: #FFF;padding: 0.05rem 0.3rem;border-radius: 0.06rem;margin-left: 0.1rem;}
+.erUl4 ul li {float: left;margin-left: 0.16rem;margin-top: 0.15rem;}
