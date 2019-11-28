@@ -1,0 +1,10 @@
+@charset "gbk";
+*{margin: 0;padding: 0;font-family: 'Î¢ÈíÑÅºÚ','ËÎÌå';}
+body {background: #FFF;color:#000;margin: 0;padding: 0;min-width: 1200px;font-size: 18px;}
+a {text-decoration:none;color: #FFF;}
+li {list-style: none;margin: 0;padding: 0;}
+ul {margin: 0;padding: 0;}
+img {margin: 0;padding: 0;border: 0px;outline-width:0px;  vertical-align:top; }
+input{margin: 0;padding: 0;border: 0px;}
+.clear {clear:both;}
+.fl {float:left;}
