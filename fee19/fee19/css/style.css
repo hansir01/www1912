@@ -1,0 +1,40 @@
+@charset "gbk";
+*{margin: 0;padding: 0;font-family: 'Î¢ÈíÑÅºÚ','ËÎÌå';}
+body {background: #FFF;color:#000;margin: 0;padding: 0;min-width: 1200px;font-size: 18px;}
+a {text-decoration:none;color: #FFF;}
+li {list-style: none;margin: 0;padding: 0;}
+ul {margin: 0;padding: 0;}
+img {margin: 0;padding: 0;border: 0px;outline-width:0px;  vertical-align:top; }
+input{margin: 0;padding: 0;border: 0px;}
+.clear {clear:both;}
+.fl {float:left;}
+
+.public {margin: auto;width: 1200px;}
+.butt {text-align: center;margin-top: 30px;}
+.butt a {display: inline-block;width: 250px;line-height: 45px;text-align: center;font-size: 21px;white-space: nowrap;word-spacing: normal;letter-spacing: normal;overflow: hidden;text-overflow:ellipsis;border-radius: 20px;}
+.bt1 a {background-color: #0066cb;color: #FFF;}
+.bt2 a {background-color: #ff6c00;color: #FFF;}
+.p_01 {text-indent: 2em;line-height: 30px;letter-spacing: 1px;margin-top: 30px;}
+.tit_01 {text-align: center;padding: 20px 0;}
+.feUl1 {margin-left: 60px;}
+.feUl1 ul li {float: left;width: 200px;text-align: center;margin-left: 50px;margin-top: 20px;}
+.p_02 {color: #0a6eb8;font-weight: bold;font-size: 20px;line-height: 30px;}
+.tit_02 {text-align: center;color: #07538d;font-weight: bold;margin-top: 20px;margin-bottom: 20px;}
+.tit_02 span {background-color: #07538d;color: #FFF;padding: 10px 60px;font-size: 36px;letter-spacing: 1px;}
+.feUl2 {margin-left: 60px;}
+.feUl2 ul li {float: left;margin-left: 20px;margin-top: 15px;}
+.feUl3 {margin-left: 50px;}
+.feUl3 ul li {float: left;width: 340px;background-color: #ebebeb;height: 370px;margin-left: 20px;}
+.feUl3 ul li h2 {font-size: 20px;text-align: center;line-height: 40px;}
+.feUl3 ul li p {font-size: 16px;width: 320px;margin-left: 10px;line-height: 25px;}
+.feUl4 {margin-left: 20px;}
+.feUl4 ul li {float: left;margin-left: 20px;}
+.tit_03 {text-align: center;background-color: #036eb8;color: #FFF;padding: 15px 0;margin-top: 20px;}
+.tit_04 {text-align: center;}
+.p_03 {text-align: center;color: #bb0000;line-height: 32px;margin-top: 20px;}
+.feUl5 {margin-top: 36px;}
+.feUl5 ul li {float: left;margin-left: 25px;}
+.feUl5 ul li:nth-child(1) {margin-top: -80px;}
+.feUl5 ul li:nth-child(2) {margin-top: -30px;}
+.feUl5 ul li:nth-child(4) {margin-top: -30px;}
+.feUl5 ul li:nth-child(5) {margin-top: -80px;}
