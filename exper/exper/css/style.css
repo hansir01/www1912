@@ -1,0 +1,42 @@
+@charset "gbk";
+*{margin: 0;padding: 0;font-family: 'Î¢ÈíÑÅºÚ','ËÎÌå';}
+body {background: #FFF;color:#000;margin: 0;padding: 0;min-width: 1200px;font-size: 18px;}
+a {text-decoration:none;color: #FFF;}
+li {list-style: none;margin: 0;padding: 0;}
+ul {margin: 0;padding: 0;}
+img {margin: 0;padding: 0;border: 0px;outline-width:0px;  vertical-align:top; }
+input{margin: 0;padding: 0;border: 0px;}
+.clear {clear:both;}
+.fl {float:left;}
+
+.public {margin: auto;width: 1200px;}
+.butt {text-align: center;margin-top: 20px;}
+.butt a {display: inline-block;width: 250px;line-height: 45px;text-align: center;font-size: 21px;white-space: nowrap;word-spacing: normal;letter-spacing: normal;overflow: hidden;text-overflow:ellipsis;border-radius: 20px;}
+.bt1 a {background-color: #f01728;color: #FFF;}
+.bt2 a {background-color: #ff6c00;color: #FFF;}
+
+.menu {background-image: url(../images/menu.jpg);width: 1120px;height: 70px;padding: 30px 30px;text-indent: 2em;line-height: 27px;margin-top: 20px;}
+.tit_01 {text-align: center;margin-top: 30px;}
+.exUl1 {margin-top: 30px;}
+.exUl1 ul li {float: left;margin-left: 20px;}
+.exUl1 ul li p {text-align: center;line-height: 50px;}
+.zy ul li {float: left;margin-left: 8px;text-align: center;background-color: #eaeaea;padding-bottom: 20px;}
+.zy ul {margin-top: 20px;}
+.zy ul li h2 {font-size: 20px;line-height: 50px;}
+.zy ul li p {line-height: 32px;}
+.zy ul li span {background-color: #e77a19;color: #FFF;padding: 5px 20px;margin-left: 10px;}
+.img_01 {text-align: center;}
+.img_01 p {line-height: 50px;}
+.exUl2 ul li {float: left;text-align: center;margin-left: 20px;}
+.exUl2 ul li p {line-height: 50px;}
+.p_01 {text-align: center;line-height: 30px;margin: 20px 0;}
+.bg {background-color: #ebebeb;margin-top: 20px;}
+.tit_02 {text-align: center;color: #ff0000;line-height: 100px;letter-spacing: 2px;}
+.tab {margin-left: 200px;}
+.tab table {text-align: center;}
+.tab table tr td {line-height: 39px;border-top-style: none; border-bottom-style: none;border-left-style: none;}
+.tab table tr:nth-child(1) {background-color: #e8a900;color: #FFF;}
+.tab table tr td:nth-child(1) {width: 200px;}
+.tab table tr td:nth-child(2) {width: 200px;}
+.tab table tr td:nth-child(3) {width: 400px;border-right-style: none;}
+.tab table tr:nth-child(even) {background-color: #FFF;}
