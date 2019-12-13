@@ -1,0 +1,95 @@
+if (getCookie("sdxh_dev") != null) {
+    (function () {
+        if (window.sdxh_page_notfind && document.location.href.indexOf(".html") > 0) {
+            var url = document.location.href.replace(".html", ".shtml");
+            var xhr = new XMLHttpRequest();
+            xhr.timeout = 10000;
+            xhr.open("GET", url, true);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 2) {
+                    if (xhr.status == 200 || xhr.status == 301) {
+                        document.location.href = url
+                    }
+                    xhr.abort()
+                }
+            };
+            xhr.send(null);
+        }
+        if ($("#sdxh_dev").length == 0) {
+            $("head").before('<link href="https://cdn.bootcss.com/csshake/1.5.3/csshake.min.css" rel="stylesheet">');
+            $("body").append("<ul id='sdxh_dev'><div class='sdxh_dev_ts'></div></ul>")
+            $("body").append("<style>#sdxh_dev{position:fixed;left:0;top:0;background:#145b7d;color:white;font-size: 16px;line-height: 1.6em;text-align: left;opacity:0.3;z-index:1001;transition: all 0.5s ease;width: 11em;list-style:none;}" +
+                "#sdxh_dev,#sdxh_dev *{font-size:16px;line-height:1.6em;padding:0;margin:0;}" +
+                "#sdxh_dev:hover{opacity:1;width:initial;}" +
+                "#sdxh_dev li{margin: 0.25em;overflow:hidden;display:block;border:none}" +
+                "#sdxh_dev i{width:5em;margin-right:0.5em;display:inline-block;background:#ffffff70;color:#fff;}" +
+                "#sdxh_dev select{width:15em;}" +
+                "#sdxh_dev a{color: black!important;background: #CDDC39!important;margin: 0 0.5em}" +
+                "#sdxh_dev a.ri{float:right;}" +
+                "#sdxh_dev li .qd{background:red;color:#fff;}" +
+                "#sdxh_dev .sdxh_dev_ts{position: absolute; border-radius: 8px;color: #FFF;background: #FF5722;line-height: 2em;padding: 0 1em;white-space: nowrap;top: 50%;left: -100%;box-sizing: border-box;}</style>");
+        }
+        var sdxhceurl = document.location.href.replace(/https*(.*?)(m|www).sdxhc[e|c]/, "http$1www.sdxhce").replace(/index\.(php|html|shtml)/, "");
+        var sdxhcemourl = sdxhceurl.replace(/(:\/\/)www/, "$1m");
+        var sdxhccurl = document.location.href.replace(/https*(.*?)(m|www).sdxhc[e|c]/, "https$1www.sdxhcc").replace(/index\.(php|html|shtml)/, "");
+        var sdxhccmourl = sdxhccurl.replace(/(:\/\/)www/, "$1m");
+        var titleportion = (RegExp(/(.*?)(?=$|\-|_| )/g).exec(document.title))[0];
+
+        $("#sdxh_dev").append("<li><i>切换</i><select><option>" + sdxhceurl + "</option><option>" + sdxhcemourl + "</option><option>" + sdxhccurl + "</option><option>" + sdxhccmourl + "</option></select>" +
+            "<a onclick='document.location.href=\"https://www.baidu.com/s?wd=\"+encodeURI($(\"#sdxh_dev select\").val())' class='ri'>百度搜索</a><a onclick='sdxh_dev_copy($(\"#sdxh_dev select\").val())' class='ri'>复制链接</a><a onclick='document.location.href=$(\"#sdxh_dev select\").val()' class='ri'>直接打开</a></li>");
+        $("#sdxh_dev").append("<li><i>标题-完整</i><span onclick='sdxh_dev_copy($(this).html())' title='点击复制标题'>" + document.title + "</span><a href='https://www.baidu.com/s?wd=" + encodeURI(document.title) + "' target='_blank' class='ri'>百度搜索</a></li>");
+        $("#sdxh_dev").append("<li><i>标题-截取</i><span onclick='sdxh_dev_copy($(this).html())' title='点击复制标题'>" + titleportion + "</span><a href='https://www.baidu.com/s?wd=" + encodeURI(titleportion) + "' target='_blank' class='ri'>百度搜索</a></li>");
+        $("#sdxh_dev").append("<li><i>路径</i><span onclick='sdxh_dev_copy($(this).html())' title='点击复制路径'>" + document.location.pathname.substring(0, (document.location.pathname.lastIndexOf("/") + 1)) + "</span></p>");
+        $("#sdxh_dev").append("<li><i>咨询</i><a onclick='switch_cookie(\"sdxh_talk_clo\")'>" + (getCookie("sdxh_talk_clo") != null ? "开启" : "关闭") + "咨询</a><a onclick='$(\".zxUrl\").toggleClass(\"shake-hard shake-constant shake-constant--hover\")'>咨询按钮抖动</a></li>");
+        $("#sdxh_dev").append("<li><i>弹窗</i><a onclick='switch_cookie(\"sdxh_jump_clo\");'>" + (getCookie("sdxh_jump_clo") != null ? "开启" : "关闭") + "弹窗</a></p>");
+        if (document.location.href.indexOf(document.baseURI))
+            $("#sdxh_dev").append("<li><i>源页面</i><span onclick='sdxh_dev_copy($(this).html())' class='qd' title='点击复制源链接'>" + document.baseURI + "</span><a href='" + document.baseURI + "' target='_blank' class='ri'>直接打开</a></li>");
+        if ($("meta[name=sdxh_page_id]").attr("content"))
+            $("#sdxh_dev").append("<li><i>ID</i><span onclick='sdxh_dev_copy($(this).html())' title='点击复制ID'>" + $("meta[name=sdxh_page_id]").attr("content") + "</span></li>");
+
+        // $("#sdxh_dev").append("<p onclick='location.reload(true);'>cdn刷新本页</p>");
+        // $("#sdxh_dev").append("<p onclick='location.reload(true);'>cdn刷新此目录</p>");
+        switch_jump();
+    }())
+
+    function sdxh_dev_copy(text) {
+        $("#sdxh_dev").append("<textarea></textarea>")
+        var textarea = $("#sdxh_dev textarea");
+        textarea.val(text);
+        textarea.get(0).select();
+        document.execCommand("copy");
+        textarea.remove();
+        sdxh_dev_ts_show("复制成功");
+    }
+
+    function sdxh_dev_ts_show(i) {
+        $("#sdxh_dev .sdxh_dev_ts").html(i);
+        $("#sdxh_dev .sdxh_dev_ts").css({
+            "margin-top": "-" + (parseInt($("#sdxh_dev .sdxh_dev_ts").css("height")) / 2) + "px",
+            "margin-left": "-" + (parseInt($("#sdxh_dev .sdxh_dev_ts").css("width")) / 2) + "px"
+        });
+        $("#sdxh_dev .sdxh_dev_ts").animate({
+            "left": "50%"
+        }, 200, function () {
+            setTimeout(function () {
+                $("#sdxh_dev .sdxh_dev_ts").animate({
+                    "left": "-100%",
+                }, 1000)
+            }, 1000);
+        });
+    }
+
+    function switch_cookie(ckname) {
+        if (getCookie(ckname) == null) {
+            setCookie(ckname, true, 365, '/', getDomain());
+        } else {
+            setCookie(ckname, "", -1, '/', getDomain());
+        }
+        location.reload(false);
+    }
+
+    function switch_jump() {
+        if (getCookie("sdxh_jump_clo") != null)
+            $(".sdxh_qq,.sdxhmo_wx,.tcbox,.sdxh_talk_document,.sdxh_freetel,.sdxh_talk_window").remove();
+    }
+}

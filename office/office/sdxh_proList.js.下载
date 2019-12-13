@@ -1,0 +1,327 @@
+/*!
+ * 山东新华专业列表
+ * sdxh_proList - v2.0.0 (2019-11-30T16:32:39+0800)
+ * Copyright 2009-2019 sdxhce.com
+ */
+
+/**
+ * @param {String} fullName 专业全称
+ * @param {Int} length 学制
+ * @param {String} education 毕业学历 （大专、本科、双学历即中专+大专）
+ * @param {Int} num 招生计划人数
+ * @param {Int} vestigial 剩余名额
+ * @param {Int} state 状态（1，正常招生、0,暂停招生，后期会重新招生、-1，已取消相关专业）
+ * @param {Int} ent_num 企业班总名额
+ * @param {Int} ent_vestigial 企业班剩余名额
+ */
+
+var sdxh_proList = {
+    showList: function () {
+        var list = new Array();
+        // V1.2.0 Object.keys(sdxh_proList);
+        for (var key in sdxh_proList)
+            if (sdxh_proList[key]["state"] == 1) list.push(sdxh_proList[key]["fullName"]);
+        return list;
+    },
+
+    showOptionList: function () {
+        var list = this.showList();
+        var OptionList = '';
+        list.forEach(function (element) {
+            //for...in不应该用于迭代Array，其索引顺序很重要。最好用for循环或Array.prototype.forEach()、for...of(for...of JS SE5 不支持)
+            OptionList += "<option>" + element + "</option>";
+        });
+        return OptionList;
+    },
+
+    ydrj: {
+        "fullName": "移动APP软件开发工程师",
+        "length": 3,
+        "education": "双学历",
+        "num": 40,
+        "vestigial": 18,
+        "state": 0,
+        "ent_num": 0,
+        "ent_vestigial": 0,
+        "link": "/zhuanye/"
+    },
+
+    dzjj: {
+        "fullName": "电子竞技运动与管理",
+        "length": 2,
+        "education": "大专",
+        "num": 40,
+        "vestigial": 17,
+        "state": 1,
+        "ent_num": 0,
+        "ent_vestigial": 15,
+        "link": "/zhuanye/"
+    },
+
+    dzsw: {
+        "fullName": "云电商技术运维师",
+        "length": 2,
+        "education": "大专",
+        "num": 40,
+        "vestigial": 17,
+        "state": 1,
+        "ent_num": 40,
+        "ent_vestigial": 19,
+        "link": "/zhuanye/"
+    },
+
+    hjyscy: {
+        "fullName": "环境艺术创意设计师",
+        "length": 2,
+        "education": "大专",
+        "num": 40,
+        "vestigial": 15,
+        "state": 1,
+        "ent_num": 40,
+        "ent_vestigial": 5,
+        "link": "/zhuanye/"
+    },
+
+    rgzn: {
+        "fullName": "人工智能",
+        "length": 3,
+        "education": "双学历",
+        "num": 40,
+        "vestigial": 13,
+        "state": 1,
+        "ent_num": 0,
+        "ent_vestigial": 14,
+        "link": "/zhuanye/"
+    },
+
+    vrkj: {
+        "fullName": "VR空间创意设计师",
+        "length": 2,
+        "education": "双学历",
+        "num": 40,
+        "vestigial": 18,
+        "state": 1,
+        "ent_num": 0,
+        "ent_vestigial": 6,
+        "link": "/zhuanye/"
+    },
+
+    uisj: {
+        "fullName": "新媒体UI精英设计师",
+        "length": 2,
+        "education": "本科",
+        "num": 40,
+        "vestigial": 19,
+        "state": 1,
+        "ent_num": 0,
+        "ent_vestigial": 0,
+        "link": "/zhuanye/"
+    },
+
+    hjys: {
+        "fullName": "环境艺术精英设计师",
+        "length": 2,
+        "education": "本科",
+        "num": 40,
+        "vestigial": 17,
+        "state": 1,
+        "ent_num": 0,
+        "ent_vestigial": 16,
+        "link": "/zhuanye/"
+    },
+
+    xxaq: {
+        "fullName": "互联网信息安全",
+        "length": 2,
+        "education": "双学历",
+        "num": 40,
+        "vestigial": 16,
+        "state": 1,
+        "ent_num": 0,
+        "ent_vestigial": 13,
+        "link": "/zhuanye/"
+    },
+
+    dsck: {
+        "fullName": "电子商务与财会",
+        "length": 2,
+        "education": "双学历",
+        "num": 40,
+        "vestigial": 16,
+        "state": 1,
+        "ent_num": 0,
+        "ent_vestigial": 13,
+        "link": "/zhuanye/"
+    },
+
+    szmt: {
+        "fullName": "VR数字媒体精英设计师",
+        "length": 2,
+        "education": "大专",
+        "num": 40,
+        "vestigial": 11,
+        "state": 1,
+        "ent_num": 0,
+        "ent_vestigial": 0,
+        "link": "/zhuanye/"
+    },
+
+    ysdm: {
+        "fullName": "4D影视动漫设计师",
+        "length": 2,
+        "education": "双学历",
+        "num": 40,
+        "vestigial": 12,
+        "state": 1,
+        "ent_num": 0,
+        "ent_vestigial": 19,
+        "link": "/zhuanye/"
+    },
+
+    dsj: {
+        "fullName": "大数据应用工程师",
+        "length": 2,
+        "education": "大专",
+        "num": 40,
+        "vestigial": 13,
+        "state": 1,
+        "ent_num": 0,
+        "ent_vestigial": 17,
+        "link": "/zhuanye/"
+    },
+
+    wlyy: {
+        "fullName": "新媒体运营师",
+        "length": 2,
+        "education": "大专",
+        "num": 40,
+        "vestigial": 16,
+        "state": 0,
+        "ent_num": 35,
+        "ent_vestigial": 8,
+        "link": "/zhuanye/"
+    },
+
+    uisjcy: {
+        "fullName": "新媒体UI创意设计师",
+        "length": 2,
+        "education": "大专",
+        "num": 40,
+        "vestigial": 17,
+        "state": 1,
+        "ent_num": 0,
+        "ent_vestigial": 0,
+        "link": "/zhuanye/"
+    },
+
+    rjkf: {
+        "fullName": "云开发软件工程师",
+        "length": 2,
+        "education": "大专",
+        "num": 40,
+        "vestigial": 15,
+        "state": 1,
+        "ent_num": 35,
+        "ent_vestigial": 11,
+        "link": "/zhuanye/"
+    },
+
+    wljs: {
+        "fullName": "云计算网络工程师",
+        "length": 2,
+        "education": "大专",
+        "num": 40,
+        "vestigial": 19,
+        "state": 1,
+        "ent_num": 0,
+        "ent_vestigial": 0,
+        "link": "/zhuanye/"
+    },
+
+    wzkf: {
+        "fullName": "网站开发工程师",
+        "length": 2,
+        "education": "大专",
+        "num": 40,
+        "vestigial": 17,
+        "state": 1,
+        "ent_num": 40,
+        "ent_vestigial": 6,
+        "link": "/zhuanye/"
+    },
+
+    szcm: {
+        "fullName": "数字传媒设计师",
+        "length": 0.5,
+        "education": null,
+        "num": 40,
+        "vestigial": 18,
+        "state": 1,
+        "ent_num": 0,
+        "ent_vestigial": 0,
+        "link": "/zhuanye/"
+    },
+
+    yjwx: {
+        "fullName": "硬件工程师",
+        "length": 0.5,
+        "education": null,
+        "num": 40,
+        "vestigial": 19,
+        "state": 1,
+        "ent_num": 0,
+        "ent_vestigial": 0,
+        "link": "/zhuanye/"
+    },
+
+    webqz: {
+        "fullName": "WEB全栈开发与运营工程师",
+        "length": 3,
+        "education": null,
+        "num": 40,
+        "vestigial": 12,
+        "state": 1,
+        "ent_num": 0,
+        "ent_vestigial": 12,
+        "link": "/zhuanye/"
+    },
+
+    wrjyy: {
+        "fullName": "无人机智能应用",
+        "length": 3,
+        "education": null,
+        "num": 40,
+        "vestigial": 16,
+        "state": 1,
+        "ent_num": 0,
+        "ent_vestigial": 7,
+        "link": "/zhuanye/"
+    },
+
+    vrcm: {
+        "fullName": "VR传媒与电竞运营",
+        "length": 3,
+        "education": null,
+        "num": 40,
+        "vestigial": 16,
+        "state": 1,
+        "ent_num": 0,
+        "ent_vestigial": 0,
+        "link": "/zhuanye/"
+    },
+
+    mzys: {
+        "fullName": "美妆美学与影视设计",
+        "length": 2,
+        "education": null,
+        "num": 40,
+        "vestigial": 15,
+        "state": 1,
+        "ent_num": 0,
+        "ent_vestigial": 0,
+        "link": "/zhuanye/"
+    }
+
+};
+
+// 技术有限。欢迎批评指正 duzhaolong@foxmail.com
