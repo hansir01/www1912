@@ -1,0 +1,40 @@
+@charset "gbk";
+*{margin: 0;padding: 0;font-family: 'Î¢ÈíÑÅºÚ','ËÎÌå';}
+body {background: #FFF;color:#000;margin: 0 auto;padding: 0;min-width: 320px;max-width:640px;font-size: 0.18rem;}
+a {text-decoration:none;color: #000;}
+li {list-style: none;}
+ul {margin: 0;padding: 0;}
+img {margin: 0;padding: 0;border: 0px;outline-width:0px;  vertical-align:top;}
+input{margin: 0;padding: 0;border: 0px;}
+.clear{clear:both;}
+.fl {float: left;}
+
+.banner img{width:6.4rem;display: block;}
+.butt {text-align: center;margin-top: 0.2rem;}
+.butt a {display: inline-block;width: 2.1rem;line-height: 0.39rem;text-align: center;font-size: 0.18rem;white-space: nowrap;word-spacing: normal;letter-spacing: normal;overflow: hidden;text-overflow:ellipsis;}
+.bt1 a {background-color: #01a4ff;color: #FFF;border-radius: 0.1rem;}
+.bt2 a {background-color: #ff0000;color: #FFF;border-radius: 0.2rem;}
+.tit_01 {margin-top: 0.1rem;text-align: center;font-size: 0.3rem;}
+.img_01 {margin-top: 0.2rem;}
+.img_01 img {width: 6.4rem;}
+.bg_01 {background-image: url(../images/ba_02_01.jpg);height: 4.97rem;background-size: 100%;margin-top: 0.2rem;}
+.tit_02 {text-align: center;padding-top: 0.2rem;}
+.tit_03 {text-align: center;padding: 0.1rem 0;}
+.tit_03 span {color: #ff0000;}
+.p_01 {width: 6rem;margin-left: 0.2rem;line-height: 0.27rem;}
+.img_02 {margin-left: 0.1rem;margin-top: 0.1rem;}
+.img_02 img {width: 6.2rem;}
+.kcUl1 ul li {float: left;margin-left: 0.1rem;margin-top: 0.1rem;}
+.kcUl1 ul li img {width: 3.06rem;}
+.tit_02 {text-align: center;}
+.baUl1 ul {float: left;margin-left: 0.087rem;}
+.baUl1 ul li {margin-top: 0.13rem;}
+.baUl1 ul li img {width: 3.07rem;}
+.baUl2 {margin-top: 0.2rem;}
+.baUl2 ul li {float: left;width: 2.87rem;margin-left: 0.22rem;}
+.baUl2 ul li p {text-align: center;line-height: 0.5rem;}
+.baUl2 ul li img {width: 2.87rem;}
+.baUl3 {margin-top: 0.2rem;}
+.baUl3 ul li {float: left;width: 1.6rem;text-align: center;}
+.baUl3 ul li h2 {font-size: 0.16rem;line-height: 0.5rem;}
+.baUl3 ul li a {display: inline-block;width: 1.25rem;line-height: 0.32rem;text-align: center;font-size: 0.16rem;white-space: nowrap;word-spacing: normal;letter-spacing: normal;overflow: hidden;text-overflow:ellipsis;background-color: #01a4ff;color: #FFF;border-radius: 0.1rem;}
