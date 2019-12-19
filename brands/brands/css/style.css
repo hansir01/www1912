@@ -1,0 +1,76 @@
+@charset "gbk";
+*{margin: 0;padding: 0;font-family: '微软雅黑','宋体';}
+body {background: #FFF;color:#000;margin: 0 auto;padding: 0;min-width: 320px;max-width:640px;font-size: 0.2rem;}
+a {text-decoration:none;color: #000;}
+li {list-style: none;}
+ul {margin: 0;padding: 0;}
+img {margin: 0;padding: 0;border: 0px;outline-width:0px;  vertical-align:top;}
+input{margin: 0;padding: 0;border: 0px;}
+.clear{clear:both;}
+.fl {float: left;}
+
+ /* 轮播 */
+.slideBox{ position:relative; overflow:hidden; margin: auto;  max-width:640px;/* 设置焦点图很大宽度 */ }
+.slideBox .hd{ position:absolute; height:28px; line-height:28px; bottom:0; right:0; z-index:1; }
+.slideBox .hd li{ display:inline-block; width:5px; height:5px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; background:#333; text-indent:-9999px; overflow:hidden; margin:0 6px;   }
+.slideBox .hd li.on{ background:#fff;  }
+.slideBox .bd{ position:relative; z-index:0; }
+.slideBox .bd li{ position:relative; text-align:center;  }
+.slideBox .bd li img{ background:url(../images/1.gif) center center no-repeat;  vertical-align:top; width:100%;/* 图片宽度100%，达到自适应效果 */}
+.slideBox .bd li a{ -webkit-tap-highlight-color:rgba(0,0,0,0);  } 
+
+.butt {text-align: center;margin-top: 0.2rem;}
+.butt span {display: inline-block;color: #FFF;font-size: 0.2rem;height: 0.42rem;line-height: 0.42rem;width: 2.3rem;text-align: center;border-radius: 0.1rem;}
+.cz {background-color: #0090ff;}
+.gz {background-color: #eb7f12;margin-left: 0.2rem;}
+.zxhd {margin-top: 0.1rem;background-image: url(../images/bs_01_01.jpg);width: 6.4rem;height: 1.18rem;background-size: 100%;}
+.zxls {width: 4.5rem;font-size: 0.2rem;margin-left: 1.5rem;padding-top: 0.2rem;}
+.zxls ul li {margin-top: 0.05rem;}
+.zxls span {float: right;width: 1.3rem;border: 0.02rem solid #ff4530;text-align: center;border-radius: 0.1rem;line-height: 0.27rem;font-size: 0.18rem;color: #ff4530;font-weight: bold;}
+.tit_01 {text-align: center;padding: 0.1rem 0;}
+.video {margin-left: 0.2rem;}
+.video video{width: 6rem;border-radius: 0.2rem;}
+.p_01 {width: 6rem;margin-left: 0.2rem;text-indent: 2em;line-height: 0.3rem;margin-top: 0.1rem;}
+.tit_02 {text-align: center;letter-spacing: 3px;line-height: 0.5rem;font-weight: normal;}
+.tit_02 font {color: #fff700;}
+.p_02  {text-align: center;color: #FFF;font-size: 0.15rem;}
+.iput {background-image: url(../images/iput.jpg);width: 6.4rem;background-size: 100%;height: 1.57rem;margin-top: 0.2rem;}
+.int {margin-top: 0.1rem;}
+.xdf-telval {width: 3.6rem;height: 0.39rem;line-height: 0.39rem;border-radius: 0.1rem;padding-left: 0.1rem;font-size: 0.18rem;margin-left: 0.3rem;}
+.xdf-telbtn {background-color: #fff700;width: 2rem;height:0.39rem; font-size: 0.18rem;border-radius: 0.1rem;}
+.p_03 {color: #fff700;margin-left: 1.5rem;font-size: 0.15rem;margin-top: 0.1rem;}
+.mcl {background-color: #0090ff!important;color: #FFF;}
+.hjm {margin-top: 0.2rem;}
+.hjm ul li {float: left;background-color: #e5e5e5;width: 2rem;text-align: center;margin-left: 0.1rem;line-height: 0.39rem;}
+.bshj ul li {float: left;width: 2.99rem;margin-left: 0.14rem;margin-top: 0.1rem;}
+.bshj ul li img {width: 2.99rem;}
+.but1 {text-align: center;margin-top: 0.2rem;}
+.but1 a {display: inline-block;width: 6rem;line-height: 0.39rem;text-align: center;font-size: 0.18rem;white-space: nowrap;word-spacing: normal;letter-spacing: normal;overflow: hidden;text-overflow:ellipsis;background-color: #0090ff;color: #FFF;border-radius: 0.1rem;}
+.rxdy ul li {float: left;width: 2rem;background-color: #0090ff;margin-left: 0.1rem;text-align: center;margin-top: 0.1rem;line-height: 0.39rem;}
+.rxdy ul li a {color: #FFF;}
+.ttel {text-align: center;margin-top: 0.1rem;}
+.ttel img {width: 6.26rem;}
+.xyzy ul li {float: left;width:2.99rem;margin-left: 0.14rem;text-align: center;margin-top: 0.1rem;}
+.xyzy ul li img {width: 2.99rem;}
+.xyot p,.xyzy ul li p {line-height: 0.39rem;}
+.xyot a,.xyzy ul li a {display: inline-block;width: 2.4rem;line-height: 0.39rem;text-align: center;font-size: 0.18rem;white-space: nowrap;word-spacing: normal;letter-spacing: normal;overflow: hidden;text-overflow:ellipsis;background-color: #0090ff;color: #FFF;border-radius: 0.1rem;}
+.xyot img {width: 6.2rem;}
+.xyot {margin-left: 0.1rem;text-align: center;}
+.jykb {margin-left: 0.2rem;}
+.jykb table {border:1px solid #d1d1d1;}
+.jykb table tr {text-align: center;font-size: 0.16rem;line-height: 0.36rem;}
+.jykb table tr:first-child {background-color: #0090ff!important;color: #FFF;line-height: 0.4rem;}
+.jykb table tr td{width: 1.5rem;border-right:1px solid #d1d1d1;}
+.jykb table tr td:nth-child(3){width: 3rem;}
+.jykb table tr:nth-child(odd){background-color: #ddf3ff;}
+.bg_04 {background-color:#eeeeee;padding-bottom: 0.1rem;margin-top: 0.1rem;}
+.pbtit {text-align: center;color: #0090ff;font-size: 0.3rem;padding-top: 0.3rem;}
+.pbsub {margin-top: 0.1rem;}
+.pbsub p {text-align: center;margin-top: 0.15rem;}
+.pb_02 {line-height: 0.5rem;}
+.pb_03 {width: 5rem;margin-left: 0.7rem;line-height: 0.2rem;border: 1px solid #bababa;border-radius: 0.1rem;background-color: #FFF;}
+.pb_03 input[type="text"] {line-height: 0.39rem;width: 4.2rem;height: 0.39rem;}
+.pb_02 input[type="submit"] {font-size: 0.2rem;background-color: #0090ff;color: #FFF;padding: 0.08rem 0.48rem;border-radius:0.1rem;}
+.pb_04 {text-align: center;margin-top: 0.1rem;font-size: 0.16rem;color: #ff0000;}
+.zx4 ul li {float: left;width:3.08rem;margin-left: 0.08rem;margin-top: 0.1rem;}
+.zx4 ul li img {width: 3.08rem;}
