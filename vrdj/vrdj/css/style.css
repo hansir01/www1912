@@ -1,0 +1,41 @@
+@charset "gbk";
+*{margin: 0;padding: 0;font-family: 'Î¢ÈíÑÅºÚ','ËÎÌå';}
+body {background: #FFF;color:#000;margin: 0;padding: 0;min-width: 1200px;font-size: 18px;}
+a {text-decoration:none;color: #FFF;}
+li {list-style: none;margin: 0;padding: 0;}
+ul {margin: 0;padding: 0;}
+img {margin: 0;padding: 0;border: 0px;outline-width:0px;  vertical-align:top; }
+input{margin: 0;padding: 0;border: 0px;}
+.clear {clear:both;}
+.fl {float:left;}
+
+.public {margin: auto;width: 1200px;}
+.butt {text-align: center;}
+.butt a {display: inline-block;width: 270px;line-height: 45px;text-align: center;font-size: 21px;white-space: nowrap;word-spacing: normal;letter-spacing: normal;overflow: hidden;text-overflow:ellipsis;}
+.bt1 a {background-color: #af30d4;color: #FFF;border-radius: 20px;margin-top: 700px;}
+.bt2 a {background-color: #d71535;color: #FFF;border-radius: 10px;margin-top: 20px;}
+.bt3 a {background-color: #d71535;color: #FFF;border-radius: 10px;margin-top: 40px;}
+.bt4 a {color: #FFF;border-radius: 20px;margin-top: 40px;border:1px solid#FFF;color: #fffc00;}
+.bg1 {background-image: url(../images/bg_01.jpg);height: 1099px;background-position: center;}
+.tit_01 {text-align: center;font-size: 45px;padding-top: 15px;color: #fe0000;}
+.p_01 {line-height: 32px;margin-top: 10px;}
+.tit_02 {text-align: center;margin-top: 20px;}
+.czUl1 {margin-top: 20px;}
+.czUl1 ul li {float: left;margin-left: 15px;}
+.czUl1 ul li p {line-height: 50px;text-align: center;}
+.tit_03 {text-align: center;margin-top: 20px;font-size: 39px;}
+.p_02 {text-align: center;line-height: 35px;}
+.bg2 {background-image: url(../images/bg_02.jpg);height: 393px;background-position: center;margin-top: 20px;}
+.tit_03 {color: #004d8a;}
+.bg3 {background-image: url(../images/bg_03.jpg);height: 393px;background-position: center;}
+.bg4 {background-image: url(../images/bg_04.jpg);height: 393px;background-position: center;}
+.bg5 {background-image: url(../images/bg_05.jpg);height: 714px;background-position: center;}
+.czUl2 ul li {float: left;color: #FFF;line-height: 30px;margin-left: 60px;}
+.czUl2 ul li p {margin-top: 150px;font-size: 20px;}
+.czUl2 ul li:nth-child(2) p {margin-left: 450px;}
+.tit_04 {text-align: center;color: #FFF;font-size: 39px;margin-top: 20px;letter-spacing: 3px;}
+.czUl3 ul li {width: 351px;color: #FFF;float: left;margin-left: 40px;padding-top: 260px;}
+.czUl3 ul li p:nth-child(1) {font-size: 23px;text-align: center;}
+.czUl3 ul li p:nth-child(2) {padding: 10px 20px;font-size: 16px;line-height: 22px;}
+.tit_05 {text-align: center;margin-top: 20px;}
+.czUl4 ul li {float: left;margin-left: 20px;margin-top: 15px;}
