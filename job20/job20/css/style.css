@@ -1,0 +1,46 @@
+@charset "gbk";
+*{margin: 0;padding: 0;font-family: 'Î¢ÈíÑÅºÚ','ËÎÌå';}
+body {background: #FFF;color:#000;margin: 0 auto;padding: 0;min-width: 320px;max-width:640px;font-size: 0.18rem;}
+a {text-decoration:none;color: #000;}
+li {list-style: none;}
+ul {margin: 0;padding: 0;}
+img {margin: 0;padding: 0;border: 0px;outline-width:0px;  vertical-align:top;}
+input{margin: 0;padding: 0;border: 0px;}
+.clear{clear:both;}
+.fl {float: left;}
+
+.banner img{width:6.4rem;display: block;}
+.butt {text-align: center;margin-top: 0.2rem;}
+.butt a {display: inline-block;width: 2.5rem;line-height: 0.39rem;text-align: center;font-size: 0.18rem;white-space: nowrap;word-spacing: normal;letter-spacing: normal;overflow: hidden;text-overflow:ellipsis;}
+.bt1 a {background-color: #ff0000;color: #FFF;border-radius: 0.1rem;}
+.bt2 a {background-color: #e77a19;color: #FFF;border-radius: 0.2rem;}
+.bt2 {background-color: #eaeaea;padding-top:0.1rem;padding-bottom: 0.05rem;}
+
+.tit_01 {text-align: center;color: #ff752a;margin-top: 0.2rem;}
+.jbUl1 ul li {float: left;margin-top: 0.1rem;}
+.jbUl1 ul li h1 {text-align: center;color: #ff752a;padding: 0.1rem 0;}
+.jbUl1 ul li p {line-height: 0.32rem;padding: 0px 0.1rem;}
+.jbUl1 ul li:nth-child(1) {width: 3.31rem;}
+.jbUl1 ul li:nth-child(2) {width: 3.01rem;margin-left: 0.08rem;}
+.jbUl1 ul li:nth-child(1) img {width: 3.31rem;}
+.jbUl1 ul li:nth-child(2) img {width: 3.01rem;}
+
+.bg {background-image: url(../images/bg.jpg);height: 6.89rem;margin-top: 0.1rem;}
+.tit_02 {text-align: center;color: #FFF;padding: 0.15rem 0;}
+.jbUl2 ul li {float: left;width: 3rem;margin-left: 0.13rem;margin-top: 0.15rem;}
+.jbUl2 ul li img {width: 3rem;}
+.p_01 {color: #FFF;width: 6rem;margin-left: 0.2rem;line-height: 0.3rem;}
+.tit_03 {text-align: center;padding: 0.2rem 0;}
+.jbUl3 ul li {background-color: #bde6ff;width: 2.05rem;float: left;margin-left: 0.0625rem;}
+.jbUl3 ul li p {font-size: 0.15rem;line-height: 0.25rem;padding: 0.1rem 0 0.1rem 0.1rem;}
+.jbUl3 ul li img {width: 2.05rem;}
+.jbUl4 ul {float: left;margin-left: 0.1rem;}
+.jbUl4 ul li p {text-align: center;line-height: 0.40rem;font-size: 0.16rem;}
+.tit_04 {text-align: center;color: #009cff;}
+.zy ul li {float: left;background-color: #eaeaea;width: 2.92rem;margin-left: 0.187rem;text-align: center;padding-bottom: 0.2rem;margin-top: 0.2rem;}
+.zy ul li h2 {font-size: 0.21rem;line-height: 0.42rem;color: #424141;}
+.zy ul li p {line-height: 0.36rem;}
+.zy ul li span {background-color: #e77a19;color: #FFF;padding: 0.05rem 0.27rem;margin-left: 0.1rem;}
+.zy ul li img {width: 2.92rem;}
+.jbUl5 ul li {float: left;width: 3.09rem;margin-left: 0.07rem;margin-top: 0.1rem;}
+.jbUl5 ul li img {width: 3.09rem;}
